@@ -35,7 +35,6 @@ resp4 = requests.delete(url2)
 
 print("Delete: ")
 
-print(resp4.status_code)
 
 if resp4.status_code == 200:
-    print("ok")
+    print(str(resp4.status_code)+" ok")
